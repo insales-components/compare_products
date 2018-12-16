@@ -1,0 +1,25 @@
+{
+  "name": "compare_products",
+  "version": "1.0.0",
+  "description": "Компонент для реализации сравнения",
+  "author": "LiquidHub.ru",
+  "type": "snippets",
+  "homepage": "https://github.com/insales-components/compare_products",
+  "plugins": [
+    {
+      "name": "alertify",
+      "files": ["https://cdn.jsdelivr.net/npm/alertifyjs@1.11.2/build/alertify.min.js", "https://cdn.jsdelivr.net/npm/alertifyjs@1.11.2/build/css/alertify.min.css"]
+    },
+    {
+      "name": "CompareProducts",
+      "files": ["https://cdn.jsdelivr.net/gh/VladimirIvanin/CompareProducts@0.6.0/dist/CompareProducts.js"]
+    }
+  ],
+  "props": {
+    "plugins": false,
+    "cellsio": false,
+    "common": false,
+    "liquid": false
+  },
+  "dependencies": {}
+}
